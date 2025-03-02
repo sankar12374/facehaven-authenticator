@@ -205,7 +205,7 @@ const Index = () => {
       <section className="py-20 px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: a1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
           className="max-w-7xl mx-auto glass-card p-10 md:p-16 text-center rounded-3xl shadow-card"
